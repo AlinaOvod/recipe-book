@@ -1,0 +1,34 @@
+.favorites-page {
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  gap: 32px;
+
+  padding: 20px;
+}
+
+.favorites-recipes,
+.favorites-ingridients {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.favorites-recipes {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.favorites-ingridients {
+  width: 30%;
+}
+
+.favorites-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
